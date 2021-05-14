@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#0277bd</color>
+    <color name="colorPrimaryDark">#004c8c</color>
+    <color name="colorAccent">#009688</color>
+
+
+    <color name="colorVerdeButton">#4caf50</color>
+    <color name="colorAmarilloButton">#f9a825</color>
+    <color name="colorRojoButton">#c62828</color>
+
+
+    <color name="colorDotPgInicio">#009688</color>
+    <color name="colorDotPgFin">#00695c</color>
+
+
+    <color name="jumbo">#bb888888</color>
+
+
+    <color name="colorFondo">#e0e0e0</color>
+</resources>

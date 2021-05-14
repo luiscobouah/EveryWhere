@@ -1,0 +1,16 @@
+<preference-headers xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- These settings headers are only used on tablets. -->
+
+    <header
+        android:fragment="com.uah.luis.everywhere.Activitys.PreferenciasActivity$GeneralPreferenceFragment"
+        android:icon="@drawable/ic_menu_general"
+        android:title="@string/pref_header_general"
+        android:description="@string/pref_header_general"/>
+
+    <header
+        android:fragment="com.uah.luis.everywhere.Activitys.PreferenciasActivity$ContactoPreferenceFragment"
+        android:icon="@drawable/ic_menu_contacto"
+        android:title="@string/pref_header_contacto" />
+
+</preference-headers>

@@ -1,0 +1,53 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <EditTextPreference
+        android:capitalize="words"
+        android:inputType="textCapWords"
+        android:key="etNombreUsuario"
+        android:maxLines="1"
+        android:selectAllOnFocus="true"
+        android:singleLine="true"
+        android:title="@string/pref_titulo_nombre" />
+    <ListPreference
+        android:defaultValue="2"
+        android:entries="@array/lista_alertas"
+        android:entryValues="@array/valores_lista_alerta"
+        android:key="listaTiempoAlerta"
+        android:negativeButtonText="@null"
+        android:positiveButtonText="@null"
+        android:title="@string/titulo_seleccion_alerta" />
+    <SwitchPreference
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:defaultValue="false"
+        android:key="switchSMS"
+        android:summary="@string/pref_descripcion_sms"
+        android:title="@string/pref_titulo_sms" />
+    <SwitchPreference
+        android:defaultValue="true"
+        android:key="switchEmail"
+        android:summary="@string/pref_descripcion_email"
+        android:title="@string/pref_titulo_email" />
+    <SwitchPreference
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:defaultValue="true"
+        android:key="switchUbicacionVivo"
+        android:summary="@string/pref_descripcion_ubicacion"
+        android:title="@string/pref_titulo_ubicacion" />
+    <SwitchPreference
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:defaultValue="true"
+        android:key="switchSonido"
+        android:summary="@string/pref_descripcion_sonido"
+        android:title="@string/pref_titulo_sonido" />
+
+    <!-- NOTE: EditTextPreference accepts EditText attributes. -->
+    <!-- NOTE: EditTextPreference's summary should be set to its value by the activity code. -->
+
+    <!-- NOTE: Hide buttons to simplify the UI. Users can touch outside the dialog to
+         dismiss it. -->
+    <!-- NOTE: ListPreference's summary should be set to its value by the activity code. -->
+
+</PreferenceScreen>

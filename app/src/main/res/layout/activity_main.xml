@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+   >
+
+    <ProgressBar
+        android:id="@+id/progressBarCircle"
+        style="@style/Widget.AppCompat.ProgressBar"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/relativeLayout"
+        android:visibility="invisible"
+
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/drawable_circle_dark_blue"
+        android:rotation="90" />
+
+    <TextView
+        android:id="@+id/textViewTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignTop="@+id/ivActividadRealizada"
+        android:layout_centerInParent="false"
+        android:layout_marginTop="84dp"
+        android:gravity="center"
+        android:text="@string/texto_ubicacion_actual"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/tvDireccion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/textViewTime"
+        android:layout_alignLeft="@+id/textViewTime"
+        android:layout_alignRight="@+id/textViewTime"
+        android:layout_alignStart="@+id/textViewTime"
+        android:layout_below="@+id/textViewTime"
+        android:gravity="center"
+        android:text="@string/texto_direccion" />
+
+    <TextView
+        android:id="@+id/tvCiudad"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/tvDireccion"
+        android:layout_alignStart="@+id/tvDireccion"
+        android:layout_below="@+id/tvDireccion"
+        android:gravity="center"
+        android:text="@string/texto_ciudad" />
+
+    <ImageView
+        android:id="@+id/ivActividadRealizada"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        app:srcCompat="@drawable/ic_desconocido"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="118dp" />
+
+    <TextView
+        android:id="@+id/tvCompartirUbicacionVivo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/relativeLayout"
+        android:layout_alignParentStart="true"
+        android:gravity="center"
+        android:textColor="@color/colorRojoButton" />
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout"
+        android:layout_width="match_parent"
+
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:padding="3dp"
+        android:weightSum="1">
+
+        <Button
+            android:id="@+id/btIniciar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_weight="0.54"
+            android:background="@color/colorVerdeButton"
+            android:elevation="20dp"
+            android:text="@string/texto_iniciar"
+            android:textColor="@android:color/white" />
+
+        <Button
+            android:id="@+id/btEmergencia"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/btIniciar"
+            android:layout_marginTop="5dp"
+            android:background="@color/colorRojoButton"
+            android:elevation="20dp"
+            android:text="@string/texto_emergencia"
+            android:textColor="@android:color/white" />
+
+    </RelativeLayout>
+
+</RelativeLayout>

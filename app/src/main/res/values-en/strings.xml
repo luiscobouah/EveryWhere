@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">EveryWhere</string>
+
+
+    <!-- Strings del activity iniciar sesion -->
+
+    <string name="nombre_login_activity">Login</string>
+    <string name="texto_hin_email">Email</string>
+    <string name="texto_hin_contrasena">Password</string>
+    <string name="texto_button_iniciar_sesion">Login</string>
+    <string name="texto_link_registrase" >No account yet?</string>
+
+    <string name="texto_no_conexion_internet">No internet connection</string>
+    <string name="texto_progresDialog_autentificando">logging in...</string>
+    <string name="texto_error_usuario_contrasena">Incorrect user or password</string>
+    <string name="texto_error_datos_usuario">Failed to get user data</string>
+
+    <string name="texto_error_correo">Please enter a valid email</string>
+    <string name="texto_error_contrasena">Must contain between 4 and 10 characters</string>
+
+    <!-- Strings del activity registrar usuario -->
+
+    <string name="nombre_registrar_usuario_activity">Sign up</string>
+    <string name="texto_reg_hin_nombre">Name</string>
+    <string name="texto_reg_hin_email">Email</string>
+    <string name="texto_reg_hin_contrasena">Password</string>
+    <string name="texto_reg_hin_confirmar_contrasena">Confirm Password</string>
+    <string name="texto_button_registrarse">Sign up</string>
+    <string name="texto_link_iniciar_sesion">I already have an account</string>
+
+    <string name="texto_progresDialog_registrando">registrando cuenta...</string>
+    <string name="texto_error_registrar_usuario"> </string>
+    <string name="texto_error_nombre">Must contain 4 or more characters</string>
+    <string name="texto_error_confirmar_contrasena">Passwords do not match</string>
+
+
+    <!-- Strings del activity Main -->
+
+    <string name="texto_ubicacion_actual">Current location</string>
+
+    <string name="texto_Snackbar_introducir_contacto">You must enter an email or a contact number</string>
+    <string name="texto_Snackbar_ok">OK</string>
+
+    <string name="texto_no_posible_enviar_sms">We are sorry, your device probably can not send SMS...</string>
+    <string name="texto_sms_enviado">SMS sent</string>
+
+    <string name="texto_no_detecto_movimiento">No movement detected</string>
+    <string name="texto_se_ha_detenido"> Has stopped at</string>
+    <string name="texto_latitud">Latitude: </string>
+    <string name="texto_longitud">longitude: </string>
+
+    <string name="texto_error_enviar_sms">Error sending SMS</string>
+
+
+    <string name="texto_se_enviara_alerta">The alert will be sent in</string>
+    <string name="texto_segundos"> seconds</string>
+    <string name="texto_enviando_alerta">Sending emergency alert</string>
+
+    <string name="texto_direccion">Address</string>
+    <string name="texto_ciudad">City</string>
+
+    <string name="texto_detener">STOP</string>
+    <string name="texto_iniciar">START</string>
+
+    <string name="texto_emergencia">EMERGENCY</string>
+
+    <string name="texto_AlertDialog_titulo">Important</string>
+    <string name="texto_AlertDialog_mensaje">Do you want to exit the application?</string>
+    <string name="texto_AlertDialog_salir">OK</string>
+    <string name="texto_AlertDialog_cancelar">Cancel</string>
+
+    <string name="texto_no_compartiendo_ubicacion">We are not sharing the live location</string>
+
+
+    <!-- Strings del activity seguimiento usuarios -->
+
+    <string name="title_activity_SeguimientoUsuariosActivity">User tracking</string>
+
+    <string name="texto_error_no_tiene_usuarios">You do not have users to track</string>
+    <string name="texto_error_obtener_usuarios">Error getting users on track</string>
+
+
+    <!-- String Service detectar ubicacion -->
+    <string name="texto_detectando_ubicacion_actividad">Activity and location are being detected</string>
+    <string name="texto_error_obtener_direccion">Error getting address</string>
+
+
+    <!-- Strings del activity preferencias -->
+    <string name="nombre_activity_preferencias">Preferences</string>
+    <string name="texto_error_guardar_servidor">Error guardar preferencias en el servidor</string>
+
+    <!-- String preferencias general -->
+    <string name="pref_header_general">General</string>
+    <string name="pref_titulo_sms">Send SMS</string>
+    <string name="pref_descripcion_sms">An SMS will be sent with the address where it has been stopped</string>
+    <string name="pref_titulo_email">Send email</string>
+    <string name="pref_descripcion_email">An email will be sent with the address where it has been stopped and the coordinates</string>
+    <string name="pref_titulo_ubicacion">Real-time location</string>
+    <string name="pref_descripcion_ubicacion">It will allow the contact person to see the actual location at any time</string>
+    <string name="pref_titulo_sonido">Play alert sound</string>
+    <string name="pref_descripcion_sonido">It will allow a sound to be played when the alert is to be sent</string>
+    <string name="pref_titulo_nombre">Name</string>
+
+    <string name="titulo_seleccion_alerta">Time to send alert</string>
+    <string-array name="lista_alertas">
+        <item>1 minute</item>
+        <item>2 minutes</item>
+        <item>3 minutes</item>
+    </string-array>
+    <string-array name="valores_lista_alerta">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+
+    <!-- String preferencias contacto -->
+    <string name="pref_header_contacto">Contact</string>
+    <string name="pref_titulo_nombre_contacto">Contact name</string>
+    <string name="pref_titulo_email_contacto">Email</string>
+    <string name="pref_titulo_numero_movil_contacto">Cellphone number</string>
+
+
+    <!-- String menus -->
+    <string name="texto_menu_preferencias">Preferences</string>
+    <string name="texto_menu_seguimiento_usuarios">User tracking</string>
+    <string name="texto_menu_cerrar_sesion">Log out</string>
+
+
+    <string name="texto_menu_actualizar">Update</string>
+
+
+    <!-- String otros -->
+
+    <string name="texto_email_enviado">E-mail sent</string>
+
+</resources>

@@ -1,0 +1,140 @@
+<resources>
+    <string name="app_name" >EveryWhere</string>
+
+
+    <!-- Strings del activity iniciar sesion -->
+
+    <string name="nombre_login_activity">Iniciar sesión</string>
+    <string name="texto_hin_email">Email</string>
+    <string name="texto_hin_contrasena">Contraseña</string>
+    <string name="texto_button_iniciar_sesion">Iniciar Sesión</string>
+    <string name="texto_link_registrase" >¿Aún no tienes cuenta?</string>
+
+
+    <string name="texto_no_conexion_internet">No hay conexión a internet</string>
+    <string name="texto_progresDialog_autentificando">Autentificando...</string>
+    <string name="texto_error_usuario_contrasena">Usuario y/o contraseña incorrecta</string>
+    <string name="texto_error_datos_usuario">Error al obtener los datos del usuario</string>
+
+    <string name="texto_error_correo">Introduzca una dirección de correo válida</string>
+    <string name="texto_error_contrasena">Debe contener entre 4 y 10 caracteres</string>
+
+    <!-- Strings del activity registrar usuario -->
+
+    <string name="nombre_registrar_usuario_activity">Registrarse</string>
+    <string name="texto_reg_hin_nombre">Nombre</string>
+    <string name="texto_reg_hin_email">Email</string>
+    <string name="texto_reg_hin_contrasena">Contraseña</string>
+    <string name="texto_reg_hin_confirmar_contrasena">Confirmar contraseña</string>
+    <string name="texto_button_registrarse">Registrarse</string>
+    <string name="texto_link_iniciar_sesion">Ya tengo cuenta</string>
+
+    <string name="texto_progresDialog_registrando">registrando cuenta...</string>
+    <string name="texto_error_registrar_usuario">Error al registrar usuario</string>
+    <string name="texto_error_nombre">Debe contener 4 o más caracteres</string>
+    <string name="texto_error_confirmar_contrasena">Las contraseñas no coinciden</string>
+
+    <!-- Strings del activity Main -->
+
+    <string name="texto_ubicacion_actual">Ubicación actual</string>
+
+    <string name="texto_Snackbar_introducir_contacto">Tiene que introducir un email o un número de contacto</string>
+    <string name="texto_Snackbar_ok">OK</string>
+
+    <string name="texto_no_posible_enviar_sms">Lo sentimos, tu dispositivo probablemente no pueda enviar SMS...</string>
+    <string name="texto_sms_enviado">SMS enviado</string>
+
+    <string name="texto_no_detecto_movimiento">No se detecto movimiento</string>
+    <string name="texto_se_ha_detenido"> se ha detenido en</string>
+    <string name="texto_latitud">Latitud: </string>
+    <string name="texto_longitud">Longitud: </string>
+
+    <string name="texto_error_enviar_sms">Error enviar SMS </string>
+
+
+    <string name="texto_se_enviara_alerta">Se enviará la alerta en</string>
+    <string name="texto_segundos"> segundos</string>
+    <string name="texto_enviando_alerta">Enviando alerta de emergencia</string>
+
+    <string name="texto_direccion">Dirección</string>
+    <string name="texto_ciudad">Ciudad</string>
+
+    <string name="texto_detener">DETENER</string>
+    <string name="texto_iniciar">INICIAR</string>
+
+    <string name="texto_emergencia">EMERGENCIA</string>
+
+
+
+    <string name="texto_AlertDialog_titulo">Importante</string>
+    <string name="texto_AlertDialog_mensaje">¿Desea salir de la aplicación?</string>
+    <string name="texto_AlertDialog_salir">Salir</string>
+    <string name="texto_AlertDialog_cancelar">Cancelar</string>
+
+    <string name="texto_no_compartiendo_ubicacion">No se esta compartiendo la ubicación en vivo</string>
+
+    <!-- Strings del activity seguimiento usuarios -->
+
+    <string name="title_activity_SeguimientoUsuariosActivity">Seguimiento usuarios</string>
+
+    <string name="texto_error_no_tiene_usuarios">No tiene usuarios en seguimiento</string>
+    <string name="texto_error_obtener_usuarios">Error obtener usuarios en seguimiento</string>
+
+
+    <!-- String Service detectar ubicacion -->
+    <string name="texto_detectando_ubicacion_actividad">Se esta detectando la actividad y ubicación</string>
+    <string name="texto_error_obtener_direccion">Error obtener dirección</string>
+
+
+    <!-- Strings del activity preferencias -->
+
+    <string name="nombre_activity_preferencias">Preferencias</string>
+    <string name="texto_error_guardar_servidor">Error guardar preferencias en el servidor</string>
+
+    <!-- String preferencias general -->
+    <string name="pref_header_general">General</string>
+    <string name="pref_titulo_sms">Enviar SMS</string>
+    <string name="pref_descripcion_sms">Se enviará  un SMS con la dirección en donde se ha detenido</string>
+    <string name="pref_titulo_email">Enviar email</string>
+    <string name="pref_descripcion_email">Se enviará  un email con la dirección en donde se ha detenido y las coordenadas</string>
+    <string name="pref_titulo_ubicacion">Ubicación en vivo</string>
+    <string name="pref_descripcion_ubicacion">Permitirá que la persona de contacto pueda ver la ubicación real en cada momento</string>
+    <string name="pref_titulo_sonido">Reproducir sonido de alerta</string>
+    <string name="pref_descripcion_sonido">Permitirá que se reproduzca un sonido cuando se vaya a enviar la alerta</string>
+    <string name="pref_titulo_nombre">Nombre</string>
+
+    <string name="titulo_seleccion_alerta">Tiempo para enviar alerta</string>
+    <string-array name="lista_alertas">
+        <item>1 minuto</item>
+        <item>2 minutos</item>
+        <item>3 minutos</item>
+    </string-array>
+    <string-array name="valores_lista_alerta">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+
+    <!-- String preferencias contacto -->
+
+
+    <string name="pref_header_contacto">Contacto</string>
+    <string name="pref_titulo_nombre_contacto">Nombre contacto</string>
+    <string name="pref_titulo_email_contacto">Email</string>
+    <string name="pref_titulo_numero_movil_contacto">Numero móvil</string>
+
+
+    <!-- String menus -->
+    <string name="texto_menu_preferencias">Preferencias</string>
+    <string name="texto_menu_seguimiento_usuarios">Seguimiento usuarios</string>
+    <string name="texto_menu_cerrar_sesion">Cerrar sesión</string>
+
+    <string name="texto_menu_actualizar">Actualizar</string>
+
+
+    <!-- String otros -->
+
+    <string name="texto_email_enviado">Email enviado</string>
+
+
+</resources>
